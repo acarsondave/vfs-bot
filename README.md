@@ -31,10 +31,11 @@ Each bot version is packaged with the required libraries and an executable file 
    - Download and extract the respective ZIP file for the desired country (Austria, Netherlands, or Germany).
 
 2. **Configure Telegram Notifications**
-   - In the extracted folder, create a `.env` file and add the following configuration:
-     ```plaintext
-     TELEGRAM_BOT_TOKEN=your_telegram_bot_token
-     TELEGRAM_CHAT_ID=your_telegram_chat_id
+   - In the extracted folder, open the `config.py` file and add the following configuration:
+     ```
+     bot_ids: ["2072675358"],            # separate with commas (,) for multiple chat ids
+     bot_token: "2056728617:AAFV4zIzbpX2YD9lCOpiCoYTanRSn6lF6qw",
+     custom_message: Appointment is available.
      ```
 
 3. **Run the Executable**
