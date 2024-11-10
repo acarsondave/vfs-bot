@@ -33,8 +33,8 @@ Each bot version is packaged with the required libraries and an executable file 
 2. **Configure Telegram Notifications**
    - In the extracted folder, open the `config.py` file and add the following configuration:
      ```
-     bot_ids: ["2072675358"],            # separate with commas (,) for multiple chat ids
-     bot_token: "2056728617:AAFV4zIzbpX2YD9lCOpiCoYTanRSn6lF6qw",
+     bot_ids: [""],            # separate with commas (,) for multiple chat ids
+     bot_token: "",
      custom_message: Appointment is available.
      ```
 
@@ -51,7 +51,7 @@ Each bot version is packaged with the required libraries and an executable file 
 ## Troubleshooting
 
 - **Captcha Handling**: For some countries, manual intervention may be required to handle captchas based on the site’s security protocols.
-- **Environment Variables**: If notifications aren’t working, double-check the `.env` configurations for the Telegram bot token and chat ID.
+- **Environment Variables**: If notifications aren’t working, double-check the `config.py` configurations for the Telegram bot token and chat ID.
 
 ## Additional Notes
 
